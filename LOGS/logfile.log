@@ -1,0 +1,3 @@
+2025-03-11 15:46:53,331:WARNING:(name)s:Something is in warning
+2025-03-11 15:46:53,331:ERROR:(name)s:A majour error has occured
+2025-03-11 15:46:53,331:CRITICAL:(name)s:Critical issue

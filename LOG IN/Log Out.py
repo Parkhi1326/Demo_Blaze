@@ -15,3 +15,6 @@ password=driver.find_element(By.ID,"loginpassword").send_keys("Parkhi@123")
 time.sleep(2)
 login=driver.find_element(By.XPATH,"//button[normalize-space()='Log in']").click()
 time.sleep(5)
+
+logout=driver.find_element(By.XPATH,"//a[@id='logout2']").click()
+time.sleep(5)

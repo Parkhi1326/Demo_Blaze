@@ -20,7 +20,7 @@ alert.accept()
 time.sleep(2)
 
 driver.forward()
-cart=driver.find_element(By.XPATH,"//*[text='Cart']").click()
+cart=driver.find_element(By.ID,"cartur").click()
 time.sleep(2)
 
 # delete=driver.find_element(By.XPATH,"//*[text()='Delete']").click()
